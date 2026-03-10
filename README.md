@@ -7,7 +7,12 @@ AutoSCAR is a neuro-symbolic framework for agentic adjudication and repair of sm
 
 The working demo of the AutoSCAR tool is: https://drive.google.com/file/d/1lg_tqX6mEFzPFfqsLO83vBTyubgTtTwX/view
 
-**Agent prompts used in the adjudication process are in pdf format named as "..._Prompt.pdf" in the "Prompt" folder.**
+**Agent prompts used in the adjudication process are in pdf format named as "..._Prompt.pdf" in the "Prompts" folder.**
+
+**Sample individual results from the formal analysis tools and their normalized outputs are in the "Formal_Method_Tools_Output" folder.**
+
+**The results and scripts for Extracted semantic context are in the "Semantic_Context_Extraction" folder.**
+For Invariants generation of solidity code we use Trace2Inv tool (Link:https://github.com/jeffchen006/Trace2Inv-Artifact-FSE24/tree/main).
 
 The tool source code is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0krV96GdjrM_Hzu/view
 
