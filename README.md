@@ -7,6 +7,8 @@ AutoSCAR is a neuro-symbolic framework for agentic adjudication and repair of sm
 
 The working demo of the AutoSCAR tool is: https://drive.google.com/file/d/1lg_tqX6mEFzPFfqsLO83vBTyubgTtTwX/view
 
+**Agent prompts used in the adjudication process are in pdf format named as "..._Prompt.pdf" in the "Prompt" folder.**
+
 The tool source code is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0krV96GdjrM_Hzu/view
 
 ## Project Directory Structure
@@ -331,7 +333,6 @@ The dataset is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0
 
 
 
-Prompt used are in pdf format named as "..._Prompt.pdf".
 
 
 
