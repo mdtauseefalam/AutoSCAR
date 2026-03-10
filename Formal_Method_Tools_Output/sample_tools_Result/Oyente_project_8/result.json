@@ -1,0 +1,34 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "column": 5,
+            "contract": "FantomToken",
+            "filename": "/mnt/c/Users/paswa/AppData/Local/Temp/sb_project_8_h6_f04zz/src/Etherscan-0x4e15361fd6b4bb609fa63c81a2be19d873717870.sol",
+            "line": 494,
+            "name": "Integer Overflow"
+        },
+        {
+            "column": 5,
+            "contract": "LockSlots",
+            "filename": "/mnt/c/Users/paswa/AppData/Local/Temp/sb_project_8_h6_f04zz/src/Etherscan-0x4e15361fd6b4bb609fa63c81a2be19d873717870.sol",
+            "line": 207,
+            "name": "Integer Overflow"
+        }
+    ],
+    "infos": [
+        "coverage ERC20Token 99.9%",
+        "coverage FantomIcoDates 99.4%",
+        "coverage FantomToken 49.7%",
+        "coverage LockSlots 96.7%",
+        "coverage Owned 99.9%",
+        "coverage SafeMath 100.0%",
+        "coverage Wallet 99.9%"
+    ],
+    "parser": {
+        "id": "oyente",
+        "mode": "solidity",
+        "version": "2025/06/04"
+    }
+}

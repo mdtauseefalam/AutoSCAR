@@ -1,0 +1,50 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/code.sol' '0' '/sb/bin' '0'",
+        "image": "smartbugs/oyente:480e725",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmp7pmgy2gi": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "/mnt/c/Users/paswa/AppData/Local/Temp/sb_project_7_a5v0cde9/src/code.sol",
+    "platform": {
+        "cpu": "AMD Ryzen 5 4600H with Radeon Graphics",
+        "python": "3.13.5.final.0 (64 bit)",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "smartbugs": "2.0.15",
+        "system": "Linux",
+        "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+    },
+    "result": {
+        "duration": 1.976914644241333,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": null,
+        "start": 1767442069.642047
+    },
+    "runid": "20260103_1207",
+    "solc": "0.6.12",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN' '$MAIN'",
+        "id": "oyente",
+        "image": "smartbugs/oyente:480e725",
+        "info": "Oyente uses symbolic execution to determine, which inputs cause which program branches to execute, in order to find potential security vulnerabilities. The image is based on commit `480e725` of https://github.com/smartbugs/oyente, a fork of the original repo with fixes to make the Dockerfile compatible with the current version of CryticCompile.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Oyente",
+        "origin": "https://github.com/smartbugs/oyente",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": "#480e725"
+    }
+}

@@ -1,0 +1,74 @@
+WARNING:root:You are using solc version 0.4.26, The latest supported version is 0.4.19
+INFO:CryticCompile:Compilation warnings/errors on /sb/MyToken.sol:
+/sb/MyToken.sol:20:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function MyToken(
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/MyToken.sol:35:45: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (balanceOf[msg.sender] < _value) throw;           // Check if the sender has enough
+                                            ^---^
+/sb/MyToken.sol:36:55: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (balanceOf[_to] + _value < balanceOf[_to]) throw; // Check for overflows
+                                                      ^---^
+/sb/MyToken.sol:61:40: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (balanceOf[_from] < _value) throw;                 // Check if the sender has enough
+                                       ^---^
+/sb/MyToken.sol:62:55: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (balanceOf[_to] + _value < balanceOf[_to]) throw;  // Check for overflows
+                                                      ^---^
+/sb/MyToken.sol:63:52: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (_value > allowance[_from][msg.sender]) throw;   // Check allowance
+                                                   ^---^
+/sb/MyToken.sol:74:9: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        throw;     // Prevents accidental sending of ether
+        ^---^
+/sb/MyToken.sol:39:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(msg.sender, _to, _value);                   // Notify anyone listening that this transfer took place
+        ^-------------------------------^
+/sb/MyToken.sol:67:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _value);
+        ^--------------------------^
+/sb/MyToken.sol:2:27: Warning: No visibility specified. Defaulting to "public". 
+contract tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData); }
+                          ^----------------------------------------------------------------------------------------^
+/sb/MyToken.sol:20:5: Warning: No visibility specified. Defaulting to "public". 
+    function MyToken(
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/MyToken.sol:34:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer(address _to, uint256 _value) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/MyToken.sol:43:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve(address _spender, uint256 _value)
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/MyToken.sol:50:5: Warning: No visibility specified. Defaulting to "public". 
+    function approveAndCall(address _spender, uint256 _value, bytes _extraData)
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/MyToken.sol:60:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/MyToken.sol:73:5: Warning: No visibility specified. Defaulting to "public". 
+    function () {
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:root:contract /sb/MyToken.sol:MyToken:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 57.9%
+INFO:symExec:	  Integer Underflow: 			 True
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  False
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/MyToken.sol:7:5: Warning: Integer Underflow.
+    string public name
+/sb/MyToken.sol:6:5: Warning: Integer Underflow.
+    string public standard = 'Token 0.1'
+/sb/MyToken.sol:8:5: Warning: Integer Underflow.
+    string public symbol
+INFO:symExec:/sb/MyToken.sol:50:5: Warning: Integer Overflow.
+    function approveAndCall(address _spender, uint256 _value, bytes _extraData)
+    ^
+Spanning multiple lines.
+Integer Overflow occurs if:
+    _extraData = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+INFO:symExec:	====== Analysis Completed ======
