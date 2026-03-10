@@ -14,7 +14,7 @@ The DAapScan dataset is available at: https://drive.google.com/file/d/1GEspCiRRT
 
 
 
-Prompt used are in pdf named as "..._Prompt.pdf".
+Prompt used are in pdf format named as "..._Prompt.pdf".
 
 
 
