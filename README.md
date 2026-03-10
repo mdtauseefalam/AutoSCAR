@@ -72,7 +72,7 @@ Generates human-readable summaries of detected vulnerabilities.
 ### fixer.py
 Attempts to generate a repaired version of the vulnerable smart contract.
 
-##**System Requirements**
+## System Requirements
 
 The framework requires the following software:
 
@@ -117,7 +117,7 @@ Used to clone repositories.
 sudo apt install git
 ```
 
-**Installing SmartBugs**
+## **Installing SmartBugs**
 
 Clone the SmartBugs framework:
 
@@ -154,7 +154,7 @@ Slither
 Oyente
 Mythril
 
-**Configure SmartBugs Path**
+## **Configure SmartBugs Path**
 
 Inside analyzers.py, SmartBugs is executed using a predefined path.
 
@@ -178,7 +178,7 @@ Alternatively create a symbolic link:
 sudo ln -s /path/to/smartbugs/smartbugs.py /home/pankaj/bin/smartbugs
 ```
 
-**Installing AutoSCAR**
+## **Installing AutoSCAR**
 
 _Clone repository:_
 
@@ -213,7 +213,7 @@ _Install dependencies:_
 pip install -r requirements.txt
 ```
 
-**Running the Backend**
+## **Running the Backend**
 
 Navigate to service directory:
 
@@ -233,7 +233,7 @@ The backend will start on:
 http://localhost:5000
 ```
 
-**Running Smart Contract Analysis**
+## **Running Smart Contract Analysis**
 
 Upload a Solidity contract through the API.
 
@@ -244,7 +244,7 @@ curl -X POST http://localhost:5000/analyze \
 -F "file=@contract.sol"
 ```
 
-**Internal Execution Process**
+## **Internal Execution Process**
 
 When a contract is submitted:
 
@@ -291,7 +291,7 @@ summarizer.py produces human-readable explanations.
 Step 8 — Fix Generation  
 fixer.py generates repaired smart contract code.
 
-**Output Files**
+## **Output Files**
 
 Results are stored in directories like:
 
@@ -313,7 +313,7 @@ frontend_output_1767190608/
 └── summary.txt
 ```
 
-**Logs**
+## **Logs**
 
 Execution logs are written to:
 
