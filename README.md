@@ -14,7 +14,7 @@ The working demo of the AutoSCAR tool is: https://drive.google.com/file/d/1lg_tq
 **The results and scripts for Extracted semantic context are in the "Semantic_Context_Extraction" folder.**
 For Invariants generation of solidity code we use Trace2Inv tool (Link:https://github.com/jeffchen006/Trace2Inv-Artifact-FSE24/tree/main).
 
-The tool source code is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0krV96GdjrM_Hzu/view
+Our AutoSCAR tool source code is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0krV96GdjrM_Hzu/view
 
 ## Project Directory Structure
 
