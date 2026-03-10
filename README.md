@@ -151,7 +151,9 @@ Manticore
 AutoSCAR currently uses:
 
 Slither  
+
 Oyente
+
 Mythril
 
 ## **Configure SmartBugs Path**
