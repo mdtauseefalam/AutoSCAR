@@ -183,7 +183,7 @@ sudo ln -s /path/to/smartbugs/smartbugs.py /home/pankaj/bin/smartbugs
 _Clone repository:_
 
 ```bash
-git clone https://github.com/<your-username>/AutoScar.git
+Download the AutoScar.zip from above source code drive link.
 cd AutoScar/backend
 ```
 
