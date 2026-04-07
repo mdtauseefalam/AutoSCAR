@@ -2,12 +2,12 @@
 AutoSCAR is a neuro-symbolic framework for agentic adjudication and repair of smart contract vulnerabilities.
 
 **Overview of AutoSCAR:**
-<img width="9317" height="2408" alt="AutoSCAR_Methodology" src="https://github.com/user-attachments/assets/7374556e-e9f3-4b11-b2b3-2fea27df5762" />
+<img width="8317" height="2000" alt="AutoSCAR_Methodology" src="https://github.com/user-attachments/assets/7374556e-e9f3-4b11-b2b3-2fea27df5762" />
 
 
 
 
-The working demo of the AutoSCAR tool is: (https://drive.google.com/file/d/1_mCWEJWL50q80GI88ShTz_j95KXbeEMI/view)
+The working demo of the AutoSCAR tool is: https://drive.google.com/file/d/1_mCWEJWL50q80GI88ShTz_j95KXbeEMI/view
 
 
 ### DATASET USED: [Click Link](#daapscan-dataset)
