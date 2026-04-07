@@ -9,6 +9,10 @@ AutoSCAR is a neuro-symbolic framework for agentic adjudication and repair of sm
 
 The working demo of the AutoSCAR tool is: (https://drive.google.com/file/d/1_mCWEJWL50q80GI88ShTz_j95KXbeEMI/view)
 
+
+## DATASET USED [Click Link] (#daapscan-dataset)
+
+
 **Agent prompts used in the adjudication process are in pdf format named as "..._Prompt.pdf" in the "Prompts" folder.**
 
 **Sample individual results from the formal analysis tools and their normalized outputs are in the "Formal_Method_Tools_Output" folder.**
@@ -337,7 +341,8 @@ These logs help debug analyzer execution.
 ### DAapScan dataset 
 The dataset is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0krV96GdjrM_Hzu/view
 
-
+### Code4rena dataset 
+The dataset is available at: https://drive.google.com/drive/u/0/folders/1ntpOktwKNa86P_w1rKQmAMUfg0tx20w3
 
 
 
