@@ -353,7 +353,7 @@ backend/app/services/results/logs/
 These logs help debug analyzer execution.
 
 ### DAapScan dataset 
-The dataset is available at: https://drive.google.com/file/d/1GEspCiRRTU7YW_G0F0krV96GdjrM_Hzu/view
+The dataset is available at: https://github.com/InPlusLab/DAppSCAN/tree/main/DAppSCAN-source
 
 ### Code4rena dataset 
 The dataset is available at: https://drive.google.com/drive/u/0/folders/1ntpOktwKNa86P_w1rKQmAMUfg0tx20w3
