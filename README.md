@@ -7,7 +7,8 @@ AutoSCAR is a neuro-symbolic framework for agentic adjudication and repair of sm
 
 
 
-The working demo of the AutoSCAR tool is: https://drive.google.com/file/d/1_mCWEJWL50q80GI88ShTz_j95KXbeEMI/view
+## The working demo video of the AutoSCAR tool
+Link is: https://drive.google.com/file/d/1_mCWEJWL50q80GI88ShTz_j95KXbeEMI/view
 
 
 ### DATASET USED: [Click Link](#daapscan-dataset)
